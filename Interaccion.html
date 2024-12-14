@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.6</title>
+</head>
+<body>
+    <style>
+        code{ background-color: rgb(217, 214, 214); }
+    </style>
+
+    <h1>Interacción: alert, prompt, confirm</h1>
+    <p><code>alert</code> Muestra un mensaje.</p>
+    <p><code>prompt</code> Muestra un mensaje pidiendo al usuario que introduzca un texto. Retorna el texto o, si se hace clic en CANCELAR o se presiona Esc, retorna null.</p>
+    <p><code>confirm</code> Muestra un mensaje y espera a que el usuario pulse “OK” o “CANCELAR”. Retorna true si se presiona OK y false si se presiona CANCEL/Esc.</p>
+
+    <p><strong>Crea una página web que pida un nombre y lo muestre.</strong></p>
+
+    <script>
+        let userName = prompt('Coloque su Nombre', '');
+        alert(userName);
+    </script>
+</body>
+</html>
